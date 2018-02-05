@@ -4,8 +4,18 @@
 
 # Как использовать
 
-Функция get_roots получает на вход три аргумента a, b c 
-Результатом функции будут значения корней root1, root2. 
+Функция `get_roots` получает на вход три аргумента `a, b, с`
+Результатом функции будут значения корней `root1, root2`.
+Вызывается функция так: `root1, root2 = get_roots(a, b, c)`
+
+Пример:
+
+```python
+from quadratic_equation import get_roots
+
+root1, root2 = get_roots(1, 0, -1)
+print(root1,root2)
+```
 
 # Как запустить
 
